@@ -88,9 +88,9 @@ def _draw_optical_axis_3d(J, ax, last=4 * np.pi):
     ax.plot([0, last], [0, 0], [0, 0], 'k')
     ax.plot([0, 0], [-the_max, the_max], [0, 0], 'g')
     ax.plot([0, 0], [0, 0], [-the_max, the_max], 'b')
-    ax.text(0, 0, 1, "y", ha="center")
-    ax.text(0, 1, 0, "x", va="center")
-    ax.text(last*1.05, 0, 0, "z", va="center")
+    ax.text(0, 0, 1.2, "Ey", ha="center")
+    ax.text(0, 1.3, 0, "Ex", va="center")
+    ax.text(last*1.15, 0, 0, "Ez", va="center")
 
 
 def _draw_h_field_3d(J, ax, offset, last=4 * np.pi):
